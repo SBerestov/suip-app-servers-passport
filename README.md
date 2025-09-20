@@ -9,8 +9,6 @@
 
 Демо на Render.com - https://suip-sberestov.onrender.com
 
-!(https://github.com/SBerestov/suip-app-servers-passport/blob/assets/main-page.png)
-
 ## О проекте
 Система инвентаризации материалов для оптимизации учета на складе. Реализовано:
 - Управление материалами: добавление, редактирование, удаление.
@@ -61,28 +59,28 @@
 ## 📸 Демонстрация работы
 1. Гамбургер-меню и вывод записей из таблиц
    
-![Гамбургер-меню и вывод записей из таблиц](https://github.com/SBerestov/suip-app-servers-passport/blob/assets/gifs/01.gif)
+![Гамбургер-меню и вывод записей из таблиц](https://github.com/SBerestov/suip-app-servers-passport/blob/main/blob/assets/gifs/01.gif)
 
 2. Добавление нового материала
    
-![Добавление нового материала](https://github.com/SBerestov/suip-app-servers-passport/blob/assets/gifs/02.gif)
+![Добавление нового материала](https://github.com/SBerestov/suip-app-servers-passport/blob/main/blob/assets/gifs/02.gif)
 
 3. Форма дополнительной проверки после заведения данных
    
-![Форма дополнительной проверки после заведения данных](https://github.com/SBerestov/suip-app-servers-passport/blob/assets/gifs/03.gif)
+![Форма дополнительной проверки после заведения данных](https://github.com/SBerestov/suip-app-servers-passport/blob/main/blob/assets/gifs/03.gif)
 
 4. Просмотр данных записи
    
-![Просмотр данных записи](https://github.com/SBerestov/suip-app-servers-passport/blob/assets/gifs/04.gif)
+![Просмотр данных записи](https://github.com/SBerestov/suip-app-servers-passport/blob/main/blob/assets/gifs/04.gif)
 
 5. Редактирование текущей записи
     
-![Редактирование текущей записи](https://github.com/SBerestov/suip-app-servers-passport/blob/assets/gifs/05.gif)
+![Редактирование текущей записи](https://github.com/SBerestov/suip-app-servers-passport/blob/main/blob/assets/gifs/05.gif)
 
 6. Уадление записи
     
-![Уадление записи](https://github.com/SBerestov/suip-app-servers-passport/blob/assets/gifs/06.gif)
+![Уадление записи](https://github.com/SBerestov/suip-app-servers-passport/blob/main/blob/assets/gifs/06.gif)
 
 7. Поиск
     
-![Поиск](https://github.com/SBerestov/suip-app-servers-passport/blob/assets/gifs/07.gif)
+![Поиск](https://github.com/SBerestov/suip-app-servers-passport/blob/main/blob/assets/gifs/07.gif)

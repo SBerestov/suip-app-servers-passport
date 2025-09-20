@@ -74,7 +74,7 @@ export const ViewItemModal: React.FC<ViewItemModalProps> = ({
 
     return Object.entries(data)
       .filter(([key]) => key !== "IMAGE_PATH" && key !== "COMMENT" && key !== "ID")
-      .map(([key, value]) => (
+      .map(([key]) => (
         <div key={key} className="flex items-center flex-wrap mb-4">
           <label className="basis-[150px] mr-5 text-sm text-[#515151]">
             {key}:
@@ -159,7 +159,7 @@ export const ViewItemModal: React.FC<ViewItemModalProps> = ({
             className="flex text-base font-bold w-full justify-center items-center py-3 px-6.75 rounded-4xl border-0 gap-2 bg-black text-white cursor-pointer md:w-auto hover:bg-[#2f2f2f]"
           >
             <img src="/images/change-white.svg" height={24} width={24} />
-            <span>Изменить</span>
+            <span>{isLoading ? "Сохранение..." : "Изменить"}</span>
           </button>
         )}
       </div>

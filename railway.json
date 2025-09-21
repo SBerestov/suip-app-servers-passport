@@ -1,11 +1,9 @@
 {
-  "build": {
-    "commands": [
-      "cd frontend && npm install && npm run build"
-    ]
-  },
+  "build": [
+    "cd frontend && npm install && npm run build"
+  ],
   "deploy": {
-    "startCommand": "gunicorn run:app -b 0.0.0.0:$PORT -w 4",
+    "startCommand": "gunicorn run:app -b 0.0.0.0:8080 -w 4",
     "restartPolicyType": "ON_FAILURE"
   }
 }

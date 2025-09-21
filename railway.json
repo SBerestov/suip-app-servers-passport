@@ -1,7 +1,7 @@
 {
   "build": {
     "commands": [
-      "cd frontend && npm ci && npm run build"
+      "cd frontend && npm install && npm run build"
     ]
   },
   "deploy": {

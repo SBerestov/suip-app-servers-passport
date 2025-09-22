@@ -7,7 +7,7 @@
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16+-blue)](https://www.postgresql.org/) 
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.3-teal)](https://tailwindcss.com/)
 
-Демо на Render.com - https://suip-sberestov.onrender.com
+Демо на Railway - https://suip-app-servers-passport-production.up.railway.app/
 
 ## О проекте
 Система инвентаризации материалов для оптимизации учета на складе. Реализовано:

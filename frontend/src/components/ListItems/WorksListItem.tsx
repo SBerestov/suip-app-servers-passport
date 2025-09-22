@@ -13,11 +13,11 @@ interface WorksItemProps {
 export const WorksListItem: React.FC<WorksItemProps> = ({ data, onDelete, onUpdate }) => {
   const [isModalOpen, setIsModalOpen] = React.useState(false);
   const [currentImageUrl, setCurrentImageUrl] = React.useState(
-    data.IMAGE_PATH ? `/api/${data.IMAGE_PATH}` : '/public/images/krisa.webp'
+    data.IMAGE_PATH ? `/api/${data.IMAGE_PATH}` : '/images/krisa.webp'
   );
 
   const handleImageChange = (newUrl: string | null) => {
-    setCurrentImageUrl(newUrl || '/public/images/krisa.webp');
+    setCurrentImageUrl(newUrl || '/images/krisa.webp');
   };
   
   const scrollRef = useHorizontalScroll();
